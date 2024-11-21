@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/posterImageView"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/dd" />
+
+    <!-- 영화 제목 -->
+    <TextView
+        android:id="@+id/movieTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="범죄 도시4" />
+
+    <!-- 상영 시각 -->
+    <TextView
+        android:id="@+id/movieTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2024-05-05 09:00:00" />
+
+    <!-- 주연 -->
+    <TextView
+        android:id="@+id/movieCastTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="마동석" />
+
+    <!-- 시놉시스 -->
+    <TextView
+        android:id="@+id/input4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="마동석이 경찰이 되어 범죄자를 잡는 영화" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="예약하기" />
+
+        <Button
+            android:id="@+id/viewbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="예약정보 보기" />
+    </LinearLayout>
+
+</LinearLayout>

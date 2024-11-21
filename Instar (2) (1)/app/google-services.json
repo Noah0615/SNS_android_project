@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "524190870196",
+    "project_id": "instar-7dbcd",
+    "storage_bucket": "instar-7dbcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524190870196:android:812046fe1295add71e85e1",
+        "android_client_info": {
+          "package_name": "com.example.instar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRVmDCwKYUO-dRhIB88tYjn0G3s08nN-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
